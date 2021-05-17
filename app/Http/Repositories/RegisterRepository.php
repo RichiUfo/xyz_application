@@ -4,7 +4,7 @@ namespace App\Http\Repositories;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
-use App\Traits\Controllers\RegisterTrait;
+use App\Http\Traits\Controllers\RegisterTrait;
 
 class RegisterRepository implements RegisterRepositoryInterface
 {
